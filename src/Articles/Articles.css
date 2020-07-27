@@ -1,0 +1,11 @@
+.articlesContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    display: flex;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}

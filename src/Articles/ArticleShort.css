@@ -1,0 +1,30 @@
+.articleShortContainer {
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 0px #aaa;
+    text-align: center;
+    width: 200px;
+    height: 238px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+.articleShortContainer:hover{
+    box-shadow: 0px 0px 6px 2px #aaa;
+    cursor: pointer;
+}
+
+.articleShortImage {
+    height: 128px;
+    width: 128px;
+    border: 1px solid #aaa;
+}
+
+.articleShortNameContainer {
+    overflow: hidden;
+    height: 100px;
+}
+
+.articleShortName {
+    text-align: center;
+}
