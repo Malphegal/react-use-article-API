@@ -1,0 +1,52 @@
+#header{
+    padding: 0 5em;
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+
+#header ul{
+    padding: 0;
+    display: flex;
+}
+
+#header li{
+    list-style: none;
+    cursor: pointer;
+    margin-right: 1em;
+}
+
+#header li > div{
+    border: 1px solid;
+    width: 150px;
+    position: relative;
+}
+
+#header li > div::after{
+    content: ' \25BC';
+}
+
+#header .hidden-div{
+    border: 1px solid;
+    display: none;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: #fff;
+}
+
+#header .hidden-div-container:hover .hidden-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#header a{
+    text-decoration: none;
+    color: inherit;
+    margin-top: 0.5em;
+}
+
+#header a:hover{
+    text-decoration: underline;
+}

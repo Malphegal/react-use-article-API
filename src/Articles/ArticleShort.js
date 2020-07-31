@@ -19,7 +19,9 @@ export default class Article extends React.Component{
     componentDidMount(){
         let image = this.props.article["image"];
         if (image !== undefined)
-            ImageHandler.getArticleImage(image).then(data => this.setState({ image: data }));
+            ImageHandler.getArticleImage(image).then(data => this.setState({ image: data }))
+        else
+            ImageHandler.getDefaultArticleImage().then(data => this.setState({ image: data }));
     }
 
     render(){

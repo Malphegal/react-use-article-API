@@ -1,0 +1,36 @@
+.new-container form{
+    width: 1000px;
+    margin: auto;
+}
+
+.new-container .form-error{
+    color: #dd2424;
+}
+
+.new-container form > *{
+    margin: 1em auto 0 auto;
+    display: block;
+}
+
+.new-container form > *:not(input):not(textarea){
+    text-align: center;
+}
+
+.new-container input{
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 0.5em;
+    outline: none;
+}
+
+.new-container textarea{
+    min-height: 70px;
+    min-width: 30%;
+}
+
+.new-container button[type=submit]{
+    background: none;
+    border: 1px solid #aaa;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+}
